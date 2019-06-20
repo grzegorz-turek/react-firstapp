@@ -11,7 +11,7 @@
         {
             id: 2,
             title: 'Terminator',
-            desc: 'The movie about two humanoids fighting about the futer of human raca. Career jump for Arnold Schwarzenegger',
+            desc: 'The movie about two humanoids fighting about the futer of human race. Career jump for Arnold Schwarzenegger',
             poster: '../images/terminator.jpg'
         },
         {
@@ -32,7 +32,7 @@
         return React.createElement('li', {key: movie.id},
             React.createElement('h2', {}, movie.title),
             React.createElement('p', {}, movie.desc),
-            React.createElement('img', {src:movie.poster, alt:"movie poster", width:"200"})
+            React.createElement('img', {src:movie.poster, alt:'movie poster', width:'200'})
           );
       });
 
