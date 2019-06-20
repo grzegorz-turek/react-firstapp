@@ -8,7 +8,7 @@
             desc: 'Very long movie (ca. 4 hrs) about German submarin during IIWW',
             poster: '<img src="../images/platoon.jpg" />'
         },
-        {  
+        {
             id: 2,
             title: 'Terminator',
             desc: 'The movie about two humanoids fighting about the futer of human raca. Career jump for Arnold Schwarzenegger',
@@ -36,7 +36,7 @@
             //React.createElement('img', {src:movie.poster}, movie.poster)
           );
       });
-      
+
     var element =
         React.createElement('div', {},
             React.createElement('h1', {}, 'Lista filmów'),
